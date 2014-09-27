@@ -1,0 +1,12 @@
+type Results struct {
+	Geometry Geometry
+}
+type Geometry struct{
+	Bounds Bounds
+}
+type Bounds struct {
+	Northeast Point
+}
+type Point struct {
+	Lat, Long float64
+}
